@@ -17,3 +17,14 @@ from dotenv import load_dotenv
 load_dotenv()
 config_list = config_list_from_json(env_or_file='OAI_CONFIG.json')
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def search(query):
+    pass
+def scrape(url: str):
+    pass
+def summary(content):
+    pass
+def wiret_content(research_material, topic):
+    pass
+
+
